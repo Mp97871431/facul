@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+    
+
+header{
+   
+    background-image: url(../imagens/pexels-polina-tankilevitch-3736292.jpg);
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+body{
+    background-image: url(../imagens/pexels-eva-bronzini-5941318.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+}
+
+header > h1{
+    text-align: center;
+    font-size: 2em;
+    color: rgb(4, 4, 197);
+    padding: 10px;
+}
+
+header >p{
+    text-align: center;
+    font-size: 1.2em;
+    text-align: justify;
+    color: black;
+}
+
+#burger{
+    background-color: rgb(34, 34, 34);
+    display: block;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    
+}
+
+#burger:hover{
+    background-color: white;
+    color: black;
+}
+
+menu{
+    display: none;
+}
+
+menu > ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+menu > ul > li > a{
+    background-color: rgb(92, 92, 92);
+    padding: 10px;
+    text-align: center;
+    display: block;
+    border-top: 2px solid black;
+    color: white;
+}
+
+menu > ul > li > a:hover{
+    background: rgb(221, 219, 219);
+}
+
+main > p{
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+main > div.camisa1{ 
+   margin: auto;
+   width: 250px;
+   background-color: white;
+   border-radius: 10px;
+   margin-bottom: 10px;
+}
+
+main > div.camisa1 >p{
+    text-align: center;
+}
+main > div.camisa2{ 
+    margin: auto;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+ }
+ 
+ main > div.camisa2 >p{
+     text-align: center;
+ }
+
+ footer{
+    background-color: rgb(92, 92, 92);
+    padding: 20px;
+ }
+
+ footer > h2{
+    text-align: center;
+ }
